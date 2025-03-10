@@ -1,0 +1,25 @@
+.user-container {
+  background-color: white;
+  display: flex;
+  width: 100%;
+  max-width: 550px;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 30px 20px;
+  margin: 0 auto;
+  border: 1px solid black;
+  border-radius: 16px;
+}
+.backdrop {
+  padding: 30px 0;
+  overflow-y: auto;
+  display: grid;
+  align-items: center;
+  background-color: rgb(0, 0, 0, 0.5);
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+}

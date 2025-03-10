@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body,
+#root {
+  min-height: 100%;
+}
+body {
+  overflow: auto;
+  padding: 30px 20px;
+  text-transform: capitalize;
+  font-family: sans-serif;
+}
+body:has(.user-container) {
+  overflow: hidden;
+}
+p {
+  font-size: 14px;
+}
+h2 {
+  font-size: 24px;
+  font-weight: 600;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 550;
+}
+
+@media (min-width: 610px) {
+  #root {
+    display: flex;
+    align-items: center;
+  }
+}
