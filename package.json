@@ -3,7 +3,6 @@
   "private": true,
   "version": "1.0.0",
   "homepage": "https://github.com/Kilim4ik/test-task-pokemon",
-  "type": "module",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -17,6 +16,7 @@
     "axios": "^1.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-scripts": "^5.0.1",
     "storybook": "^8.6.4"
   },
   "devDependencies": {
@@ -48,5 +48,17 @@
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Kilim4ik/test-task-pokemon/issues"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   }
 }
