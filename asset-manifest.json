@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Kilim4ik/test-task-pokemon/static/css/main.c912428d.css",
+    "main.js": "/Kilim4ik/test-task-pokemon/static/js/main.bde7f5fa.js",
+    "index.html": "/Kilim4ik/test-task-pokemon/index.html",
+    "main.c912428d.css.map": "/Kilim4ik/test-task-pokemon/static/css/main.c912428d.css.map",
+    "main.bde7f5fa.js.map": "/Kilim4ik/test-task-pokemon/static/js/main.bde7f5fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c912428d.css",
+    "static/js/main.bde7f5fa.js"
+  ]
+}
