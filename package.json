@@ -4,19 +4,17 @@
   "version": "1.0.0",
   "homepage": "https://github.com/Kilim4ik/test-task-pokemon",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject",
+    "start": "vite",
+    "build": "vite build",
+    "test": "vitest",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "@storybook/react": "^8.6.4",
     "axios": "^1.8.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1",
     "storybook": "^8.6.4"
   },
   "devDependencies": {
