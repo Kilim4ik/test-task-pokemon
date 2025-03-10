@@ -8,7 +8,7 @@
     "build": "vite build",
     "test": "vitest",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "@storybook/react": "^8.6.4",
